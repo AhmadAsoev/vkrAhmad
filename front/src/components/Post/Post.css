@@ -1,0 +1,36 @@
+.Post-avatar {
+    border-radius: 50%;
+}
+
+.Post-name {
+  color: white;
+}
+
+.Post-created {
+  color: white;
+}
+
+.Post-likes {
+  color: white;
+}
+
+.Post-content {
+  font-size: 150%;
+  font-family:'Times New Roman', Times, serif;
+  color: white;
+}
+
+.btn {
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: rgb(173, 19, 219);
+  }
+
