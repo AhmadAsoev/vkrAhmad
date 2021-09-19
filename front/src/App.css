@@ -1,13 +1,5 @@
 .App {
   text-align: center;
-  background-color: rgb(94, 52, 150);
-  background-image: url(https://vecherka.tj/wp-content/uploads/2021/01/nacionalnyj-muzej.jpg);
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  backdrop-filter: blur(4px);
 }
 
 .App-logo {
