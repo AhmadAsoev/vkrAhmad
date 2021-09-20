@@ -1,13 +1,10 @@
-const mysql = require('mysql')
+const mysql = require('@mysql/xdevapi');
 
-const connection = mysql.createConnection({
-     host: 'localhost',
-     user: 'root',
-     password: 'кщще',
-     database: 'posts'
-})
+const url = 'mysqlx://app:pass@localhost:33060/social';
 
-connection.connect((error) => {
+const connection = mysql.getClient(url);
+
+connection.getSession((error) => {
     if (error) {
         return console.log('Error into connect', error);
     } else {
