@@ -9,7 +9,7 @@ function Wall() {
             author: {
                 id: 1,
                 avatar: 'https://cutt.ly/PEo7H7O',
-                name: 'Четкий пацык с четками',
+                name: 'Comrade',
             },
             content: 'Благодарю Алиф академию за потраченный год',
             likes: 0,

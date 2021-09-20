@@ -63,13 +63,17 @@ export default function PostForm({edited = empty, onSave, onCancel}) {
     };
 
     return (
-        <form>
-            <textarea
+        <form className="form">
+            <textarea className="textarea"
                 ref={firstFocusEl}
                 name="content"
                 placeholder="content"
                 value={post.content || ''}
                 onChange={handleChange}
+                rows="4"
+                cols="37"
+                maxLength="100"
+                minLength="3"
             />
             <button className="btn" onClick={handleSubmit}>Ok <img src="https://cutt.ly/AEo6RkS" width="50px" height="50px" alt="/" /></button>
             {post.id !== 0 && <button className="btn" onClick={handleCancel}>Отменить <img src="https://cutt.ly/bEo6HKd" width="50px" height="50px" alt="/" /></button>}
